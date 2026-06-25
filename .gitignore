@@ -164,3 +164,9 @@ data/output/*
 *.mp4
 *.mkv
 *.avi
+
+# Agent/Impeccable local installs
+.claude/
+.agents/
+.cursor/
+.gemini/

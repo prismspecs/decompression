@@ -1,2 +1,2 @@
-torch
-argparse
+# Video Forensic Visualizer dependencies
+# (FFmpeg must be installed on the system)
