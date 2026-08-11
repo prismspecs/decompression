@@ -2,7 +2,7 @@
 
 A forensic tool designed to expose the "invisible forms" of digital compression.
 
-## 🛠 Tools
+## Tools
 
 ### 1. Video Forensic Visualizer
 **Path:** `scripts/forensic_visualizer.py`
@@ -18,7 +18,7 @@ This tool utilizes the FFmpeg `codecview` filter to materialize the hidden decis
 python scripts/forensic_visualizer.py path/to/video.mp4 --mode mv --output forensic_mv.mp4
 ```
 
-## 🏗 Installation
+## Installation
 
 ### Prerequisites
 - **FFmpeg:** Required for video visualization. (e.g., `sudo apt install ffmpeg` or `brew install ffmpeg`)
@@ -36,10 +36,10 @@ python scripts/forensic_visualizer.py path/to/video.mp4 --mode mv --output foren
    pip install -r requirements.txt
    ```
 
-## 🧪 Background & Feasibility
+## Background & Feasibility
 
 ### The Invisible Image
 Video compression is not merely a reduction in file size; it is a complex re-construction of time and space. By visualizing motion vectors and macroblocks, we move from the *represented* image to the *operational* image—the mathematical scaffolding that makes digital video possible.
 
-## 📜 License
+## License
 This project is released under the MIT License.
